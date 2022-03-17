@@ -15,9 +15,9 @@
 			response.sendRedirect("login.jsp");
 		}
 	%>
-	
+	<center><font size="+2">This is the Report Page </font></center><br><br>
+	<center>You have successfully LogedIn </center><br>
 	welcome ${username }
-	<a href= "videos.jsp">videos here</a>
 	
 	<form action="Logout">
 		<input type="submit" value="Logout">

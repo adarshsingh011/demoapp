@@ -18,7 +18,7 @@ public class Login extends HttpServlet {
 		String uname = request.getParameter("uname");
 		String pass = request.getParameter("pass");
 		LoginDao dao= new LoginDao();
-		
+
 		if(dao.check(uname, pass))
 		{
 			HttpSession session = request.getSession();
