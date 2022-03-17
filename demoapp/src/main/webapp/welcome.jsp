@@ -16,6 +16,7 @@
 		}
 	%>
 	This is my cc Projects
+	from IIIT Pune
 	welcome ${username }
 	<a href= "videos.jsp">videos here</a>
 	
