@@ -15,7 +15,7 @@
 			response.sendRedirect("login.jsp");
 		}
 	%>
-	
+	This is my cc Projects
 	welcome ${username }
 	<a href= "videos.jsp">videos here</a>
 	
